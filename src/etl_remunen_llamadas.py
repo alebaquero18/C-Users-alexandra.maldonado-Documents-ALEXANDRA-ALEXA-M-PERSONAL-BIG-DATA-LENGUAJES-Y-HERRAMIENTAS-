@@ -52,7 +52,7 @@ def get_data(filename):
     data=pd.read_csv(file_path, enconding="latin-1", sep=";")
     return data
 
-if _name_ == "_main_":
+if name == "_main_":
     main()
 
 
